@@ -6,3 +6,10 @@ def square_array(numbers)
   end
     new_array
 end 
+
+def sqaured_array(numbers)
+  numbers.collect do |i|
+    i * i 
+end 
+sqaured_array
+end
